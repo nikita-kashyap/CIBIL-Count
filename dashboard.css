@@ -40,8 +40,11 @@
 }
 #activeTab{
     background-image:linear-gradient(to right, #ff105f,#ffad06);
+    border-right:5px solid white;
 }
-.navbtn:hover:not(#activeTab){padding-left:50px;background:black;}
+.navbtn:hover:not(#activeTab){
+    background:black;
+}
 
 
 
