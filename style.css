@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(picture/banner.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -36,7 +36,7 @@
 .firstDiv{
     height:100%;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(picture/banner.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -204,8 +204,7 @@ span{
     box-shadow: 0 0 20px #000;
 }
 .footer div{
-    color:silver;
-    
+    color:silver;    
     height:auto;
     width:33%;
     margin-left:10%;

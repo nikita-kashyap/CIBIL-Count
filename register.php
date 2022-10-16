@@ -14,7 +14,7 @@ if($connect)
     $pass=$_POST['password'];
 
 }
-$cmd="insert into register values(".$userid.",'".$email."','".$pass."',true);";
+$cmd="insert into register values(".$userid.",'".$email."','".$pass."',true,300);";
 $ins=mysqli_query($connect,$cmd);
 if ($ins) {
     //echo "Successfully Registered.";
